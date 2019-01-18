@@ -41,14 +41,14 @@ module.exports = {
     description: {
       type: 'string',
       label: 'Project description',
-      default: 'A native application built with NativeScript-Vue',
+      default: 'Faciliciti is a native application built with NativeScript-Vue',
       when: '!inPlace',
     },
     app_name: {
       type: 'string',
       required: true,
       label: 'Application name',
-      default: 'NativeScript-Vue Application',
+      default: 'Faciliciti',
       when: '!inPlace',
     },
     app_id: {
@@ -76,17 +76,6 @@ module.exports = {
       type: 'string',
       label: 'License',
       default: 'MIT',
-      when: '!inPlace',
-    },
-    preset: {
-      type: 'list',
-      label: 'Select a preset (more coming soon)',
-      choices: [
-        'Simple',
-        'TabView',
-        'SideDrawer',
-      ],
-      default: 'Simple',
       when: '!inPlace',
     },
     // router: {
