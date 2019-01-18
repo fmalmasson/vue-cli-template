@@ -7,7 +7,7 @@ if(TNS_ENV !== 'production') {
 }
 {{/devtools}}
 // Prints Vue logs when --env.production is *NOT* set while building
-Vue.config.silent = (TNS_ENV === 'production')
+Vue.config.silent = TNS_ENV === 'production'
 
 new Vue({
   render: h => h('frame', [h(App)])
