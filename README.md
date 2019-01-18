@@ -1,6 +1,6 @@
 > **Note:** This is a new version of the template, if you are looking for the old template, it is available on the [legacy branch](https://github.com/nativescript-vue/vue-cli-template/tree/legacy).
 
-# vue-cli-template
+# vue-cli-template + Prettier
 
 > NativeScript-Vue application template for quick prototyping with vue-cli (2.x).
 
@@ -11,7 +11,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli/tree/m
 ``` bash
 # Scaffold project
 npm install -g @vue/cli @vue/cli-init
-vue init nativescript-vue/vue-cli-template <project-name>
+vue init fmalmasson/vue-cli-template <project-name>
 cd <project-name>
 
 # Install dependencies
