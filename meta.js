@@ -96,28 +96,6 @@ module.exports = {
       default: true,
       when: '!inPlace',
     },
-    color_scheme: {
-      type: 'list',
-      label: 'Color scheme',
-      choices: [
-        'none',
-        'aqua',
-        'blue',
-        'brown',
-        'dark',
-        'forest',
-        'grey',
-        'lemon',
-        'light',
-        'lime',
-        'orange',
-        'purple',
-        'ruby',
-        'sky',
-      ],
-      default: 'none',
-      when: '!inPlace',
-    },
   },
   helpers: {
     androidVersionCode: version => {
