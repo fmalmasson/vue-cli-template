@@ -98,7 +98,7 @@ module.exports = {
     store: {
       type: 'confirm',
       label: 'Install vuex? (state management)',
-      default: false,
+      default: true,
       when: '!inPlace',
     },
     devtools: {
